@@ -1,94 +1,127 @@
 # Pals Analysis Project
 
+# Pals Analysis Project
+
 ## 📌 Overview
 
-**Pals Analysis** is a data-driven project focused on studying the attributes and behaviors of "Pals" from the open-world multiplayer survival game **Palworld** (also known as Eidolon Parlu). The goal is to uncover strategic insights through structured data exploration and interactive visualization.
+**Pals Analysis** is a data-driven exploration of creatures ("Pals") from the game Palworld, released in January 2024. This project combines database management, statistical analysis, and interactive visualization to extract strategic insights for gameplay optimization.
 
----
+## 🎮 About Palworld
 
-## 🎯 Educational Objectives
+Palworld is an open-world survival crafting game developed by Pocket Pair where players capture and collect creatures called "Pals". These creatures can be used for:
+- Combat against other Pals and bosses
+- Building and managing bases/camps
+- Resource gathering and production
+- Farming and crafting
 
-This project is part of a data and AI training program, aiming to develop the following skills:
+## 🧩 Dataset Structure
 
-- SQL database modeling and data normalization with **MariaDB**  
-- Exploratory Data Analysis (EDA) using **Jupyter Notebook**  
-- Interactive web app development with **Streamlit**  
-- Technical documentation and version control with **Git/GitHub**  
+Our analysis utilizes six interconnected datasets:
 
----
+1. **Combat Attributes**: Battle statistics, elemental affinities, and combat capabilities
+2. **Job Skills**: Work efficiencies and specialized abilities for base development
+3. **Hidden Attributes**: Special characteristics not immediately visible in-game
+4. **Refresh Areas**: Spawn locations and level distribution information
+5. **Ordinary Boss Attributes**: Statistics for standard bosses encountered in the world
+6. **Tower Boss Attributes**: Data on endgame tower bosses and their capabilities
 
-## 🧩 Project Workflow
+## 🎯 Project Objectives
 
-1. **Dataset Acquisition & Exploration**  
-   - Analyze and understand the structure of the dataset related to Pals  
-   - Identify categorical and numerical attributes, correlations, and outliers  
+This analysis aims to answer key gameplay questions including:
+- Identifying the most powerful Pals for combat
+- Finding optimal work crews for base development
+- Understanding correlations between Pal attributes
+- Developing efficient capture strategies
+- Creating balanced team compositions
 
-2. **Database Design with MariaDB**  
-   - Create a database `palworld_database` including six main tables:  
-     - `combat_attribute`  
-     - `job_skill`  
-     - `hidden_attribute`  
-     - `refresh_area`  
-     - `ordinary_boss_attribute`  
-     - `tower_boss_attribute`  
+## 🛠️ Technical Implementation
 
-3. **Data Cleaning & Normalization**  
-   - Remove inconsistencies, handle missing values, and prepare for querying  
+### Database Design
+- MariaDB implementation with normalized tables
+- SQL queries via Python connectors
 
-4. **Exploratory Analysis in Notebooks**  
-   - Investigate trends, distributions, and relations across attributes  
+### Analysis Pipeline
+- Jupyter notebook documenting the full exploratory data analysis
+- Statistical methods for distribution analysis and correlation identification
+- Data visualization using matplotlib, seaborn, and plotly
 
-5. **Streamlit App Development**  
-   - Build an interactive interface (`app/app.py`) for real-time visualization and user interaction  
+### Interactive Dashboard
+- Streamlit application providing real-time filtering and visualization
+- Combat strategy optimization tools
+- Workforce management insights
 
----
+## 📊 Key Findings
+
+*To be completed following analysis*
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.9+
+- MariaDB/MySQL
+- Required Python packages (see requirements.txt)
+
+### Installation
+```bash
+# Clone this repository
+git clone https://github.com/[username]/pals-analysis.git
+
+# Install required packages
+pip install -r requirements.txt
+
+# Run the Streamlit app
+cd app
+streamlit run app.py
+```
 
 ## 📁 Project Structure
 
-```plaintext
+```
 pals-analysis/
 │
-├── app/                  # Streamlit web app
-│   └── app.py
+├── app/                  # Streamlit web application
+│   └── app.py            # Main application file
 │
-├── data/                 # Raw and cleaned data files
-│   └── .keep
+├── data/                 # Data files
+│   ├── raw/              # Original dataset files
+│   └── processed/        # Cleaned and transformed data
 │
-├── database/             # SQL scripts or DB dumps
-│   └── .keep
+├── database/             # Database scripts and schema
+│   ├── schema.sql        # Database structure
+│   └── queries/          # SQL query files
 │
-├── notebooks/            # Jupyter notebooks for EDA
-│   └── .keep
+├── notebooks/            # Jupyter analysis notebooks
+│   └── pals_analysis.ipynb  # Main analysis document
 │
-├── src/                  # Additional source code or utilities
-│   └── __init__.py
+├── src/                  # Helper scripts and utilities
+│   └── data_utils.py     # Data processing functions
 │
-├── README.md             # Project overview (this file)
-├── .gitignore            # Files and folders to ignore in Git
+├── README.md             # Project documentation
 ├── requirements.txt      # Python dependencies
+└── presentation.pdf      # Project presentation slides
+```
 
-🚀 Deliverables
-📊 Jupyter Notebook documenting the full analysis and reasoning
+## 🔍 Analysis Methods
 
-🌐 Streamlit app for interactive visualization
+Our approach includes:
+- Distribution analysis of Pal attributes
+- Correlation studies between combat statistics
+- Clustering of Pals by capability and function
+- Optimization algorithms for team composition
 
-📂 Public GitHub repository with clear structure and documentation
+## 📚 Resources
 
-🎞️ Presentation slide deck summarizing findings and methods
+- [Palworld Wiki](https://palworld.fandom.com/wiki/Palworld_Wiki)
+- [Streamlit Documentation](https://docs.streamlit.io/)
+- [Data Visualization Best Practices](https://www.tableau.com/learn/articles/data-visualization-tips)
 
-🛠️ Technologies Used
-Python (for scripting and visualization)
+## 👥 Contributors
 
-Jupyter Notebook (for analysis documentation)
+*To be added*
 
-SQL with MariaDB (for structured data storage and queries)
+## 📄 License
 
-Streamlit (for building the interactive app)
-
-Git & GitHub (for version control and collaboration)
-
-📌 Status
-Project initialized — structure ready for dataset ingestion and database setup.
+This project is shared for educational purposes only. All game data is property of Pocket Pair, Inc.
 
 
 
