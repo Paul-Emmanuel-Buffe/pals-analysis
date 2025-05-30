@@ -1,0 +1,24 @@
+A/select size, count(size) from monsters group by size;
+B/ select GenusCategory,count(GenusCategory) from monsters group by GenusCategory;
+C/select HP,count(HP) from monsters group by HP;
+D/select rarity,count(rarity) from monsters group by rarity;
+E/select food_intake, count(food_intake) from job_skills group by food_intake;
+F/ select english_name, ranch_items from job_skills where ranch_items = "wool" or ranch_items="egg" or ranch_items = "milk";
+G / select  OverrideNameTextID,  melee_attack, defense from monsters order by melee_attack desc, defense desc limit 10;
+H/ select melee_attack, Remote_attack, defense,support from monsters;
+I/select rarity, melee_attack, Remote_attack, defense,support from monsters;
+J/select avg(rarity) from monsters where melee_attack = (select max(melee_attack) from monsters);
+K/ select size, melee_attack, Remote_attack, defense, support from monsters;
+L/
+M/
+N/
+O/
+P/ select count(night_shift) from job_skills where night_shift = 1 ;
+Q/
+R/
+S/
+T/
+U/
+V/
+W/
+
