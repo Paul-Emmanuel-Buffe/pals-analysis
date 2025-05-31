@@ -36,9 +36,9 @@ if page == "Accueil":
 
     En Phase 1, les besoins sont multiples et interdépendants :
 
-    - 🔒 Sécurité minimale pour survivre aux premières rencontres  
+    - 🛡️ Sécurité minimale pour survivre aux premières rencontres  
     - 🪓 Collecte efficace des ressources de base (bois, pierre, aliments)  
-    - ⚡ Progression rapide en niveau (XP)  
+    - 🎯 Progression rapide en niveau (XP)  
     - 🐎 Mobilité pour l’exploration précoce  
     - 🏗️ Construction d’un socle autonome (camp de base)
 
