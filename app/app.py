@@ -1,5 +1,8 @@
 import streamlit as st
 
+# Cette ligne est la première commande Streamlit
+st.set_page_config(page_title="Optimisation Palworld", page_icon="🛡️")
+
 # Barre latérale de navigation
 st.sidebar.title("Navigation")
 page = st.sidebar.selectbox("Choisis une page :", [
@@ -34,39 +37,34 @@ if page == "Accueil":
     
     **Définition des KPI** : Métriques de combat, production et synergie d'équipe
     
-    **Exploration des données** : Analyse des 6 datasets, preprocessing et identification des patterns
+    **Exploration approfondie des données** : Analyse des 6 datasets, preprocessing et identification des patterns
     
-    **Analyse métier** : Segmentation des profils, modélisation des besoins et optimisation multi-critères
+    **Analyse métier approfondie** : Compréhension des mécaniques de jeu, identification des besoins stratégiques 
+    en Phase 1 et modélisation des synergies optimales
     
     ## Objectif
     
-    Proposer une solution d'optimisation basée sur l'analyse quantitative des attributs et synergies 
-    identifiés dans le dataset pour maximiser l'efficacité stratégique en début de partie.
+    Proposer une solution d'optimisation basée sur l'analyse quantitative des attributs et l'analyse métier 
+    des synergies identifiées dans le dataset pour maximiser l'efficacité stratégique en début de partie.
     
     ---
     *Explorez nos recommandations via le menu de navigation.*
     """)
 
 elif page == "Stratégie":
-    st.title("Stratégie d'Optimisation – Grassland Phase 1")
-    st.write("Contenu à venir...")
+    exec(open('Strategie.py', encoding='utf-8').read())
 
 elif page == "Profil 1":
-    st.title("Profil 1 – Garde-Combat Efficace (Niveau 2-3)")
-    st.write("Contenu à venir...")
+    exec(open('Profil1.py', encoding='utf-8').read())
 
 elif page == "Profil 2":
-    st.title("Profil 2 – Collecteur Polyvalent (Niveau 3-4)")
-    st.write("Contenu à venir...")
+    exec(open('Profil2.py', encoding='utf-8').read())
 
 elif page == "Profil 3":
-    st.title("Profil 3 – Capture XP Multi-Cibles (Niveau 4-6)")
-    st.write("Contenu à venir...")
+    exec(open('Profil3.py', encoding='utf-8').read())
 
 elif page == "Profil 4":
-    st.title("Profil 4 – Monture Précoce (Niveau 7-10)")
-    st.write("Contenu à venir...")
+    exec(open('Profil4.py', encoding='utf-8').read())
 
 elif page == "Profil 5":
-    st.title("Profil 5 – Builder de Base (Niveau 10-12)")
-    st.write("Contenu à venir...")
+    exec(open('Profil5.py', encoding='utf-8').read())
