@@ -30,10 +30,11 @@ if page == "Accueil":
     ## Contexte Stratégique
 
     Le but n'est pas seulement de former une équipe idéale de 5 Pals, mais s'inscrit dans une 
-    **réelle stratégie qui permet de débuter de manière optimale** dans ce jeu. Cette approche 
-    Phase 1 vise à établir les fondations d'une progression durable et efficace.
+    **réelle stratégie qui permet de débuter de manière optimale** dans ce jeu.Le défi initial de Palworld impose des choix cruciaux dès les premiers niveaux. 
+    
+    En Phase 1, les besoins sont multiples et interdépendants : garantir une **sécurité minimale** pour survivre aux premières rencontres, assurer une **collecte efficace des ressources de base** (bois, pierre, aliments), permettre une **progression rapide en niveau**, favoriser la **mobilité pour l’exploration**, et enfin amorcer la **construction d’un socle autonome** pour la suite de l’aventure.
+    Répondre à ces besoins dès les premiers instants du jeu permet de poser des bases solides, tout en conservant un équilibre entre défense, rendement, vitesse de progression et préparation stratégique.
 
-    À ce stade du jeu, les besoins sont multiples : disposer de Pals utiles à la **récolte rapide de ressources**, capables de **soutenir la production** sur la base (minage, agriculture, énergie), tout en assurant une **présence offensive** efficace pour les premiers combats. Il est également important d’avoir une **certaine robustesse défensive** pour protéger la base et sécuriser les premières zones d’exploration. L’équilibre entre ces rôles conditionne une montée en puissance fluide et stratégique.
 
     ## Méthodologie
 
