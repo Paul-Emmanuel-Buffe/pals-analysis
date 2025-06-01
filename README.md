@@ -54,7 +54,7 @@ Définition d'un schéma relationnel dans `palworld_database` incluant 6 tables 
 ---
 
 ## 📁 Structure du projet
-
+---
 pals-analysis/
 ├── app/ # Interface utilisateur (Streamlit)
 │ └── app.py
