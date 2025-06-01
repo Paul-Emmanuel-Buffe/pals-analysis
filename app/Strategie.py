@@ -169,6 +169,6 @@ st.markdown("### Ce que l'analyse métier nous a révélé :")
 st.markdown("""
 - Paysages dégagés, sans massifs montagneux, donc avec une bonne visibilité et accessibilité. Ce qui facilite la capture.
 - Zones géographiques riches en ressources clés (bois, pierre, nourriture)  
-- Faible dangerosité en early game, permettant une progression sécurisée
+- Dangerosité raisonnable en early game, permettant une progression sécurisée
 """)
 
