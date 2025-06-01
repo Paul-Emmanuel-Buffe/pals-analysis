@@ -68,6 +68,7 @@ if page == "Accueil":
 elif page == "Stratégie":
     exec(open('Strategie.py', encoding='utf-8').read())
 
+
 elif page == "Profil 1":
     exec(open('Profil1.py', encoding='utf-8').read())
 
