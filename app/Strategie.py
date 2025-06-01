@@ -131,7 +131,7 @@ def load_rarity_by_zone():
         ROUND(AVG(pca.rarity), 2) AS rarete_moyenne
     FROM palu_refresh_level prl
     JOIN palu_combat_attribute pca ON prl.id = pca.id
-    WHERE prl.min_level BETWEEN 1 AND 12
+    WHERE prl.minimum_level BETWEEN 1 AND 12
     GROUP BY prl.refresh_area
     ORDER BY rarete_moyenne DESC;
     """

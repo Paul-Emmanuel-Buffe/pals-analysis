@@ -55,8 +55,11 @@ def get_grassland_pals_with_rarity():
 # Affichage des données
 if total > 0:
     df = get_grassland_pals_with_rarity()
+
+    # Nettoyage des lignes vides
+    df.dropna(how='all', inplace=True)
+    df.dropna(subset=['pal_display_name'], inplace=True)
     
-   
     # Tableau simple des Pals
     st.subheader("Liste des Pals présents en grassland (niveau 1-4)")
     
@@ -77,6 +80,7 @@ if total > 0:
         height=500,
         use_container_width=True
     )
+
     
     
     
