@@ -43,24 +43,32 @@ if conn:
     st.dataframe(df)
 
 st.markdown("""
-# 🤔 Choix du Pal optimal
+# 🎯 Stratégie de Capture Optimale : Quel Pal choisir ?
 
-D'après les données filtrées, **Anubis** semble être le Pal idéal pour ce rôle.
+D’après les données analysées, **Anubis** semble initialement être un bon choix pour ce rôle. Cependant, une évaluation plus stratégique révèle un candidat encore plus adapté…
 
 ---
 
-## 🧠 Analyse stratégique : Quel est réellement le meilleur choix ?
+## 🧠 Le meilleur Pal pour la **capture prolongée**
 
-En réalité, **Knight of Light** pourrait s’avérer être un choix plus optimal, et ce, malgré une attaque plus faible qu’Anubis.
+Malgré une attaque plus faible, **Knight of Light** se révèle être **le choix optimal** pour maximiser les sessions de capture.
 
-### Pourquoi privilégier Knight of Light ?
+### ⚖️ Pourquoi privilégier Knight of Light pour la capture ?
 
-Il se distingue par une meilleure polyvalence grâce à :
+Sa robustesse en fait un atout majeur :
 
-- Une **défense** plus élevée
-- Un **HP** supérieur
+- Une **défense** nettement supérieure
+- Un **HP élevé**, garantissant une **longévité en combat**
 
-### 🎯 Conclusion
+Ces qualités assurent une **présence prolongée sur le terrain**, idéale pour :
 
-Grâce à sa robustesse (défense + HP), **Knight of Light** pourra rester actif plus longtemps en combat. Cela permet une **durée de capture prolongée**, ce qui en fait un excellent choix pour la stratégie de capture XP multi-cibles.
+- Enchaîner les combats sans interruption
+- **Capturer plusieurs Pals d'affilée** sans risquer l'épuisement
+- Optimiser l’**XP par session de capture**
+
+---
+
+## 🏆 Conclusion : Le champion de la capture
+
+Avec sa **résistance accrue**, **Knight of Light** s’impose comme le **Pal parfait** pour une **stratégie de capture intensive**. Il est donc **le meilleur allié** pour les chasseurs de Pals en quête d'efficacité maximale !
 """)
