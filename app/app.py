@@ -1,6 +1,6 @@
 import streamlit as st
 
-# Configuration de la page (doit être le premier appel Streamlit)
+# Configuration de la page 
 st.set_page_config(page_title="Optimisation Palworld", page_icon="🐉")
 
 # Barre latérale de navigation
@@ -15,9 +15,9 @@ page = st.sidebar.selectbox("Choisis une page :", [
     "Profil 5"
 ])
 
-# Affichage du contenu selon la page
+# Affichage du contenu 
 if page == "Accueil":
-    st.title("🐉 Optimisation d'Équipe Palworld")
+    st.title("Optimisation d'Équipe Palworld")
     st.subheader("Analyse Data-Driven pour la Formation d'Équipes Équilibrées")
     
     st.markdown("""

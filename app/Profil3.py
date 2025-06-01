@@ -35,7 +35,7 @@ def fetch_data1(conn):
     return df
 
 
-st.title("🎯 Profil #3 – Capture XP Multi-Cibles (Niv. 4-6)")
+st.title("Profil #3  Capture XP Multi-Cibles (Niv. 4-6)")
 
 
 conn = get_connection()

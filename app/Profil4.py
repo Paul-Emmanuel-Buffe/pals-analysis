@@ -5,7 +5,7 @@ import seaborn as sns
 from sqlalchemy import create_engine
 
 # Configuration
-st.title(" Profil #4 – Monture Précoce (Niv. 7-10)")
+st.title(" Profil #4  Monture Précoce (Niv. 7-10)")
 st.markdown("""
 ### Objectif :
 Optimiser la **mobilité** du joueur dès le niveau 7.  

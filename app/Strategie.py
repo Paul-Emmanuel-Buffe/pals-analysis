@@ -13,7 +13,7 @@ config = {
     'database': 'palworld_database'
 }
 
-# Connexion à la base (cache la ressource pour éviter reconnections inutiles)
+# Connexion à la base 
 @st.cache_resource
 def get_engine():
     return create_engine(
@@ -23,7 +23,7 @@ def get_engine():
 
 engine = get_engine()
 
-@st.cache_data(ttl=3600)  # cache 1h
+@st.cache_data(ttl=3600)  
 def load_data():
     query = """
     SELECT 
@@ -42,7 +42,7 @@ df = load_data()
 st.title("📊 Stratégie : Grass Land")
 st.markdown("**Distribution des Pals par zone de réapparition**")
 
-# Palette adaptée au nombre de barres
+# Palette nombre de barres
 colors = px.colors.sequential.Viridis[:len(df)]
 
 fig = go.Figure()
@@ -121,7 +121,7 @@ with st.expander("🔍 Voir les données détaillées"):
 
 
 
-# --- AJOUT : Calcul et affichage de la rareté moyenne par zone ---
+# Calcul et affichage de la rareté moyenne par zone
 
 @st.cache_data(ttl=3600)
 def load_rarity_by_zone():
