@@ -53,30 +53,6 @@ Définition d'un schéma relationnel dans `palworld_database` incluant 6 tables 
 
 ---
 
-## 📁 Structure du projet
-
-pals-analysis/
-├── app/                  # Interface utilisateur (Streamlit)
-│   └── app.py
-│
-├── data/                 # Données brutes et nettoyées
-│   └── .keep
-│
-├── database/             # Scripts SQL pour la base MariaDB
-│   └── .keep
-│
-├── notebooks/            # Analyses exploratoires (Jupyter)
-│   └── .keep
-│
-├── src/                  # Code Python (fonctions, utilitaires)
-│   └── __init__.py
-│
-├── requirements.txt      # Dépendances Python
-├── .gitignore            # Fichiers à ignorer
-└── README.md             # Présentation du projet
-
-
-
 ---
 
 ## 🛠️ Technologies utilisées
@@ -93,7 +69,7 @@ pals-analysis/
 
 ## 🚀 Installation
 
-```bash
+
 # Cloner le projet
 git clone https://github.com/Paul-Emmanuel-Buffe/pals-analysis.git
 cd pals-analysis
@@ -117,3 +93,26 @@ streamlit run app/app.py
     🧾 Scripts SQL pour générer et alimenter la base
 
     🎞️ Présentation finale du projet
+
+## 📁 Structure du projet
+
+```bash
+pals-analysis/
+├── app/                  # Interface utilisateur (Streamlit)
+│   └── app.py
+│
+├── data/                 # Données brutes et nettoyées
+│   └── .keep
+│
+├── database/             # Scripts SQL pour la base MariaDB
+│   └── .keep
+│
+├── notebooks/            # Analyses exploratoires (Jupyter)
+│   └── .keep
+│
+├── src/                  # Code Python (fonctions, utilitaires)
+│   └── __init__.py
+│
+├── requirements.txt      # Dépendances Python
+├── .gitignore            # Fichiers à ignorer
+└── README.md             # Présentation du projet
