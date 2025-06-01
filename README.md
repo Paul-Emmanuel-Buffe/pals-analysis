@@ -69,7 +69,7 @@ Définition d'un schéma relationnel dans `palworld_database` incluant 6 tables 
 
 ## 🚀 Installation
 
-
+```bash
 # Cloner le projet
 git clone https://github.com/Paul-Emmanuel-Buffe/pals-analysis.git
 cd pals-analysis
