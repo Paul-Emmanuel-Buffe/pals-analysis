@@ -96,7 +96,7 @@ streamlit run app/app.py
 
 ## 📁 Structure du projet
 
-```bash
+
 pals-analysis/
 ├── app/                  # Interface utilisateur (Streamlit)
 │   └── app.py
