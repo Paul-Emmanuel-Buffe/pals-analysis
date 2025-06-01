@@ -22,3 +22,7 @@ U/
 V/
 W/
 
+
+select chinese_name, (make_a_fire+watering+planting+generate_electricity+manual+collection+ logging+ mining+pharmaceutical+pasture+carry) as total_skills from job_skills inner join palu_refresh_level as prl  on chinese_name= prl.name where refresh_area = "grassland" order by total_skills desc limit 8;
+
+select chinese_name, (make_a_fire+watering+planting+generate_electricity+manual+collection+ logging+ mining+pharmaceutical+pasture+carry) as total_skills, make_a_fire, watering, planting, generate_electricity, manual, collection, logging, mining, pharmaceutical, pasture, carry from job_skills inner join palu_refresh_level as prl  on chinese_name= prl.name where refresh_area = "grassland" order by total_skills desc limit 8;
